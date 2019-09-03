@@ -1,10 +1,8 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom'
-import Header from './partials/Header'
 
-class Machine extends Component {
+export default class Machine extends Component {
     constructor(props){
+        super()
         this.state = {
 
         }
@@ -13,7 +11,14 @@ class Machine extends Component {
     render() {
         return (
             <div className='container'>
-                
+                <form>
+                    <div className="form-group">
+
+                    </div>
+                    <div className="form-group">
+                        
+                    </div>
+                </form>
             </div>
         )
     }
