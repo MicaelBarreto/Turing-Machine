@@ -64454,7 +64454,7 @@ if (false) {} else {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -70141,8 +70141,8 @@ function (_Component) {
         className: "col-md-offset-2"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("table", {
         className: "table table-dark"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "Name"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "Name"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "Name"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "Name")), this.state.machines.map(function (machine) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, machine.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, machine.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, machine.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, machine.name));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "Q"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "\u03A3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "\u0393"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "\u03B4"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "q0"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "\u2205"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "F"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "Palavra"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("th", null, "Resultado")), this.state.machines.map(function (machine) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("tr", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, machine.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, machine.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, machine.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, machine.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, machine.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, machine.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, machine.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, machine.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, machine.name));
       }))))));
     }
   }]);

@@ -26,14 +26,24 @@ export default class Home extends Component {
                         <div className='col-md-offset-2'>
                             <table className='table table-dark'>
                                 <tr>
-                                    <th>Name</th>
-                                    <th>Name</th>
-                                    <th>Name</th>
-                                    <th>Name</th>
+                                    <th>Q</th>
+                                    <th>&#x3A3;</th>
+                                    <th>&#x393;</th>
+                                    <th>&#x3B4;</th>
+                                    <th>q0</th>
+                                    <th>&empty;</th>
+                                    <th>F</th>
+                                    <th>Palavra</th>
+                                    <th>Resultado</th>
                                 </tr>
                                 {this.state.machines.map((machine)=>{
                                     return (
                                         <tr>
+                                            <td>{machine.name}</td>
+                                            <td>{machine.name}</td>
+                                            <td>{machine.name}</td>
+                                            <td>{machine.name}</td>
+                                            <td>{machine.name}</td>
                                             <td>{machine.name}</td>
                                             <td>{machine.name}</td>
                                             <td>{machine.name}</td>
