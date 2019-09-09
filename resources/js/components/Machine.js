@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import InputMask from 'react-input-mask'
 
 export default class Machine extends Component {
     constructor(props){
@@ -15,7 +16,7 @@ export default class Machine extends Component {
                     <div className="form-group">
                         <label className='col-md-2'>Q</label>
                         <div className='col-md-10'>
-                            <input name='' className='form-control'></input>
+                            <InputMask name="" className='form-control' placeholder='{q0,q1,q2}' mask={['{a9(,a9)*}']} />
                         </div>
                     </div>
                     <div className="d-flex flex-row mb-12">
