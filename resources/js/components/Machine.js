@@ -5,8 +5,16 @@ export default class Machine extends Component {
     constructor(props){
         super()
         this.state = {
-
+            sigma: [
+                {name:''},
+            ]
         }
+    }
+
+    addNew = () => {
+        sigma = [...this.sigma];
+        sigma.push({name: ''});
+        this.setState({ sigma });
     }
 
     render() {
@@ -34,7 +42,7 @@ export default class Machine extends Component {
                                 </div>
                             </div>
                             <div className="form-group">
-                                <label className='col-md-2'>&#x3B4;</label>
+                                <label className='col-md-2'>Palavra</label>
                                 <div className='col-md-10'>
                                     <input name='' className='form-control'></input>
                                 </div>
@@ -61,10 +69,17 @@ export default class Machine extends Component {
                             </div>
                         </div>
                     </div>
+                    {sigma.map((sig, index) => (
+                        <div className="form-group">
+                            <label className='col-md-2'>&#x3B4;</label>
+                            <div className='col-md-10'>
+                                <input name={index} className='form-control'></input>
+                            </div>
+                        </div>
+                    ))}
                     <div className="form-group">
-                        <label className='col-md-2'>Palavra</label>
                         <div className='col-md-10'>
-                            <input name='' className='form-control'></input>
+                            <button className='btn btn-primary' onClick={this.addNew}>Rodar</button>
                         </div>
                     </div>
                     <div className="form-group">
